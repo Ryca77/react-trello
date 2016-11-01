@@ -1,19 +1,22 @@
 .list {
-	margin-bottom: 20px;
-}
-
-.add-input {
-	margin-right: 10px;
-}
-
-.card {
-	width: 200px;
-	text-align: center;
+	width: 250px;
 	padding: 10px;
 	margin: 10px;
 	display: inline-block;
 }
 
+.add-input {
+	margin-right: 10px;
+	margin-left: -20px;
+}
+
+.card {
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+}
+
 .card-content {
-	font-weight: bold;
+	text-align: left;
 }

@@ -40,7 +40,7 @@ var ListContainer = React.createClass({
 		return (
 			<div className="list">
 				<div className="list-title">{this.props.title}</div>
-				<List cards={this.state.cards} onAddInputChange={this.onAddInputChanged} onAddSubmitClick={this.onAddSubmit} />
+				<List cards={this.state.cards} value={this.state.text} onAddInputChange={this.onAddInputChanged} onAddSubmitClick={this.onAddSubmit} />
 			</div>
 		);
 	}

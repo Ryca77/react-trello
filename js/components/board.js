@@ -12,9 +12,9 @@ var Board = React.createClass({
 		return (
 			<div className="board">
 				<h1 className="board-title">{"Board Title"}</h1>
-				<ListContainer title="List One Title" />
-				<ListContainer title="List Two Title" />
-				<ListContainer title="List Three Title" />
+				<ListContainer className="container" title="List One Title" />
+				<ListContainer className="container" title="List Two Title" />
+				<ListContainer className="container" title="List Three Title" />
 			</div>
 		);
 	}
