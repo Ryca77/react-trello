@@ -9,9 +9,9 @@ var List = React.createClass({
 	render: function(props) {
 		var cards = this.props.cards;
 		console.log(cards);
-		var cardArray = cards.map(function(content) {
+		var cardArray = cards.map(function(content) {			
 			return <Card text={content} />
-			});
+		});
 		return (
 			<div className="list">
 				<div>{cardArray}</div>

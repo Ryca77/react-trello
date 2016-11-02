@@ -1,19 +1,24 @@
+.board-title {
+	margin-left: 10px;
+}
+
 .list {
 	width: 250px;
-	padding: 10px;
 	margin: 10px;
 	display: inline-block;
 }
 
 .add-input {
 	margin-right: 10px;
-	margin-left: -20px;
+	margin-left: -10px;
 }
 
 .card {
 	width: 200px;
 	padding: 10px;
-	margin: 10px;
+	margin-left: -10px;
+	margin-bottom: 5px;
+	border: 1px solid black;
 	display: block;
 }
 

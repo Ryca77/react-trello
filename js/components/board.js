@@ -11,7 +11,7 @@ var Board = React.createClass({
 		}
 		return (
 			<div className="board">
-				<h1 className="board-title">{"Board Title"}</h1>
+				<h2 className="board-title">{"Board Title"}</h2>
 				<ListContainer className="container" title="List One Title" />
 				<ListContainer className="container" title="List Two Title" />
 				<ListContainer className="container" title="List Three Title" />
