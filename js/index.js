@@ -3,7 +3,7 @@ require('babel-polyfill');
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Card = require('./components/list');
+var Card = require('./components/card');
 var List = require('./components/list');
 var Board = require('./components/board');
 
